@@ -12,7 +12,7 @@ const Footer = () => {
         >
           <img src="/img/logo.svg" alt="logo" />
         </div>
-        <div className="pb-8 border-b border-primary flex items-start justify-between">
+        <div className="pb-8 border-b border-primary flex flex-col tablet:flex-row gap-6 items-start tablet:justify-between">
           <div>
             <p className="text-base font-bold text-river-styx mb-[18px]">
               About Us
