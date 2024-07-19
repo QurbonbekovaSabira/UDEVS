@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
+
+.radio-customcolor:checked {
+    background-color: #1b5bf7;
+    border-color: #1b5bf7;
+}
+
+.radio-customcolor {
+    border-color: #1b5bf7;
+}
+
+.radio-customborder {
+    border-width: 2px;
+}
