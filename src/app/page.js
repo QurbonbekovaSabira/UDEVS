@@ -152,7 +152,6 @@ export default function Home() {
                 </div>
               </div>
               <FadeInUp>
-                {" "}
                 <div className="bg-[url(/img/technolies-bg2.png)] bg-no-repeat flex justify-center bg-center rounded-3xl overflow-hidden z-0 relative">
                   <img className="z-20" src="/img/technologies-bg.png" />
                 </div>
@@ -320,10 +319,7 @@ export default function Home() {
             </FadeInUp>
           </>
         </section>
-        <section
-          id="delever"
-          className="tablet:py-[80px] py-6 bg-ma-white"
-        >
+        <section id="delever" className="tablet:py-[80px] py-6 bg-ma-white">
           <div className="container">
             <FadeInUp>
               <h2 className="   text-smashing-pumpkins  text-right font-extrabold  text-3xl tablet:text-[64px] tablet:leading-[64px] mb-[60px]">
